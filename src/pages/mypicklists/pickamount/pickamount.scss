@@ -1,0 +1,57 @@
+
+page-pickamount {
+
+  /* Numeric Pad
+  ===============================================*/
+  .resultAmount {
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding-right: 10px;
+    font-size: 24px;
+    background-color: #000;
+    color: #FFF;
+  }
+  .resultAmount input {
+    text-align: right;
+    padding-right: 10px;
+  }
+  ion-grid {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    /*border: 2px solid #000;*/
+    width: 100%;
+    max-width: 400px;
+  }
+  ion-col {
+    border-collapse: collapse;
+    border: 1px solid #f5f5f5;
+    padding: 0;
+  }
+  ion-col button {
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    min-height: 60px;
+    padding: 0;
+    border: none;
+    color: #000;
+    background-color: #d0d1d4;
+  }
+  .functionKey {
+    background-color: #F98E12;
+    color: #000;
+  }
+  .functionKey.activated {
+    background-color: #ea7d05;
+    color: #fff;
+  }
+  .activated {
+    color: #fff;
+    background-color: #babbbe;
+  }
+          
+}
